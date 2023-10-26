@@ -15,14 +15,15 @@ body {
 }
 .classe-cadre {
 
-    background-color: #d3fc3f;
-    width:650px;
-    height: 330px;
+    background-color: #d1fd30;
+    width:750px;
+    height: 700px;
     margin: auto;
     margin-top: 150px;
-    font-size: 40px;
     color: blue;
     text-align: center;   
+    border: 3px solid black;
+    border-radius: 40%;
 }
 
 .classe-cadre2 {
@@ -31,12 +32,18 @@ body {
     /* border: 2px solid black; */
     margin: auto;
     margin-top: 100px;
-    color: blueviolet;
+    color: blue;
 }
 select{
     width:100%;
     text-align: center;
 }
 legend{
-    color: blue;
+    color: rgb(0, 0, 255);
+    font-size:23px;
+    margin: auto;
+}
+p{
+    font-size: 40px;
+    margin-top: 40px;
 }
