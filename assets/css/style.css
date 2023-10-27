@@ -3,9 +3,8 @@
     margin: 0;
     padding: 0;
     font-size: 20px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
-
 
 
 body {
@@ -15,7 +14,7 @@ body {
 }
 .classe-cadre {
 
-    background-color: #d1fd30;
+    background-color: #51bdf0;
     width:750px;
     height: 700px;
     margin: auto;
@@ -25,25 +24,42 @@ body {
     border: 3px solid black;
     border-radius: 40%;
 }
-
 .classe-cadre2 {
     width: 250px;
     height: 200px;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     margin: auto;
     margin-top: 100px;
-    color: blue;
+
 }
 select{
     width:100%;
     text-align: center;
 }
 legend{
-    color: rgb(0, 0, 255);
+    color: rgb(4, 4, 250);
     font-size:23px;
     margin: auto;
 }
 p{
     font-size: 40px;
     margin-top: 40px;
+}
+.pokemon{
+
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin:25px;
+     
+}
+fieldset{
+    color: rgb(0, 0, 0);
+    border-color: black;
+    
+}
+.pikatchu {
+    width: 300px;
+    height: 300px;
+
 }
